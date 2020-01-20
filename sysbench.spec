@@ -1,6 +1,6 @@
 Summary:       System performance benchmark
 Name:          sysbench
-Version:       1.0.17
+Version:       1.0.19
 Release:       1
 Group:         System/Kernel and hardware
 License:       GPLv2+
@@ -55,10 +55,10 @@ autoreconf -vif
            --with-system-luajit \
            --without-gcc-arch
 
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 mv %{buildroot}%{_docdir}/sysbench/manual.html .
 
 %check
