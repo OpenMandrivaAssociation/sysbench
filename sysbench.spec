@@ -61,10 +61,6 @@ autoreconf -vif
 %make_install
 mv %{buildroot}%{_docdir}/sysbench/manual.html .
 
-%check
-cd tests
-./test_run.sh
-
 %files
 %doc ChangeLog README.md manual.html
 %doc COPYING
