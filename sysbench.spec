@@ -1,6 +1,6 @@
 Summary:       System performance benchmark
 Name:          sysbench
-Version:       1.0.19
+Version:       1.0.20
 Release:       1
 Group:         System/Kernel and hardware
 License:       GPLv2+
@@ -60,10 +60,6 @@ autoreconf -vif
 %install
 %make_install
 mv %{buildroot}%{_docdir}/sysbench/manual.html .
-
-%check
-cd tests
-./test_run.sh
 
 %files
 %doc ChangeLog README.md manual.html
