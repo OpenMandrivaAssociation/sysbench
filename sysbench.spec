@@ -1,7 +1,7 @@
 Summary:       System performance benchmark
 Name:          sysbench
 Version:       1.0.20
-Release:       1
+Release:       2
 Group:         System/Kernel and hardware
 License:       GPLv2+
 Source0:       https://github.com/akopytov/%{name}/archive/%{version}/%{name}-%{version}.tar.gz
